@@ -647,7 +647,7 @@ padding:0px;
 
   .quantity{
   display: block;
-  width: 22%;
+  width: 30%;
    padding: 2px;
    font-size: 16px;
    /* font-weight: normal; */
@@ -671,8 +671,8 @@ position: relative;
     margin:2px 4px;
   }
   .cdelete{
-    position: relative;
-   right: 90px;
+  right: 20px;
+  
    font-size: 17px;
   }
   .md{
