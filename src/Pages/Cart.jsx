@@ -78,7 +78,7 @@ function Cart() {
             })
           }
           <div className={togglebutton?'msg msg1':'msg msg2'}>
-            {mydata.length == 0 ? "Your Cart is Empty." : <button className= {togglebutton?'cc cc1 clc':'cc  clc cc2'} onClick={() => handleclear()}> Clear Cart</button>
+            {mydata.length == 0 ? "Your Cart is Empty." : <button className= {togglebutton?'cc cc1 ':'cc   cc2'} onClick={() => handleclear()}> Clear Cart</button>
             } 
             <div>{mydata.length==0 ?"":<button className= {togglebutton?'cc cc1':'cc cc2'} > Make Payment</button>}</div>
             </div>
