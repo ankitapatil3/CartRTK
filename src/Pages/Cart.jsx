@@ -64,7 +64,7 @@ function Cart() {
                     <div className='apr'>
                       <div><IoMdAddCircle className='add' size={23} onClick={() => addq(value.id)} /></div>
 
-                      <div className='cartprice'>Quantity: {value.quantity}
+                      <div className='cartprice'>Items: {value.quantity}
                       </div>
                       <div><IoMdRemoveCircle className='add' size={23} onClick={() => minusq(value.id)} /></div>
 
