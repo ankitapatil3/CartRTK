@@ -13,6 +13,7 @@ import i11 from "../sp/koli.jpg";
 import i15 from "../sp/ravi.jpg";
 import i12 from "../sp/tj.jpg";
 import i13 from "../sp/ankita.jpg";
+import i14 from "../sp/ak.jpg";
 import { useSelector } from 'react-redux';
 
 function Feedback() {
@@ -21,7 +22,7 @@ function Feedback() {
         {
             id:1,
             name:'Aarav Swami',
-            image:"/sp/ak.jpg",
+            image:i14,
            msg:"Quality is good, packaging is proper"
         },
         {
